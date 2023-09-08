@@ -1,0 +1,95 @@
+body{
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("e-visa6.jpeg");
+    height: 1550px;
+    width: 100%;
+    align-content: center;
+
+}
+
+
+h1{
+    white-space:pre-line;
+    font-size: x-large;
+    color: white;
+    text-align: left;
+}
+p{
+    white-space:pre-line;
+    font-size: x-large;
+    color: white;
+    text-align: left;
+}
+input {
+    align-items: right;
+    height: 30px;
+    width: 100px;
+    background:white;
+    border: 1px;
+    border-bottom-left-radius: 1px;
+    color: black;
+    float: right;
+
+}
+nav{
+  padding-top: 25px;
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.menu{
+  align-items: flex-start;
+  
+  
+}
+
+  
+
+a{
+  position: relative;
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  letter-spacing: .8px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

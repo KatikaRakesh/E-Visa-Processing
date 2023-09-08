@@ -1,0 +1,79 @@
+body{
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {display: block;
+margin-left: auto;
+margin-right: auto;
+}
+h1{
+    color: lightblue;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+nav{
+    padding-top: 25px;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    margin: auto;
+  }
+  .menu{
+    align-items: flex-start;
+    
+    
+  }
+  a{
+    position: relative;
+    text-decoration: none;
+    color:lightblue;
+    font-size: 20px;
+    letter-spacing: .5px;
+    padding: 0 20px;
+    cursor: pointer;
+     transition: 0.3s;
+}
+   
+    
+    .overlay a:hover, .overlay a:focus {
+      color:#818181;
+    }
+    h2{
+      color: blue;
+      
+    }
+    .btn-group button {
+      background-color: white; /* Green background */
+      border: 1px solid green; /* Green border */
+      color: lightblue; /* White text */
+      padding: 10px 24px; /* Some padding */
+      cursor: pointer; /* Pointer/hand icon */
+      width: 50%; /* Set a width if needed */
+      display: block;
+      float: center;
+       /* Make the buttons appear below each other */
+    }
+    
+    .btn-group button:not(:last-child) {
+      border-bottom: none; /* Prevent double borders */
+    }
+    
+    /* Add a background color on hover */
+    .btn-group button:hover {
+      background-color: black;
+    }
+    .btn-group button { margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
